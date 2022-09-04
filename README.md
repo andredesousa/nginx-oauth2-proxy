@@ -46,6 +46,6 @@ If you have an `.env` file, you can use `docker-compose --env-file .env up` comm
 For further reference, please consider the following articles:
 
 - [OAuth2 Proxy Docs](https://oauth2-proxy.github.io/oauth2-proxy/docs/)
-- [Add Auth to Any App with OAuth2 Proxy](https://developer.okta.com/blog/2022/07/14/add-auth-to-any-app-with-oauth2-proxy#is-oauth2-proxy-right-for-your-application)
+- [Add Auth to any App with OAuth2 Proxy](https://developer.okta.com/blog/2022/07/14/add-auth-to-any-app-with-oauth2-proxy#is-oauth2-proxy-right-for-your-application)
 - [Securing application access with Ingress, OAuth2, and GitLab](https://oak-tree.tech/blog/k8s-nginx-oauth2-gitlab)
 - [Using environment variables and files with Docker Compose](https://towardsdatascience.com/a-complete-guide-to-using-environment-variables-and-files-with-docker-and-compose-4549c21dc6af)
