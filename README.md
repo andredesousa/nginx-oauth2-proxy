@@ -34,7 +34,7 @@ Go to <https://github.com/settings/developers> and register a new OAuth applicat
 To start the application, you can use the next command:
 
 ```bash
-docker compose up
+docker-compose up
 ```
 
 It will start a sample `web-app`, `oauth2-proxy` and `nginx` services.
