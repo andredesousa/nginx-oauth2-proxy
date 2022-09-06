@@ -18,7 +18,7 @@ OAuth2 Proxy provides authentication using providers (GitHub, Google, and others
 Follow the next instructions to configure and run the project on your local machine:
 
 - Install [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/).
-- Register a new GitHub App to allow the access to GitHub OAuth Apps.
+- Register a new *GitHub App* to allow the access to *GitHub OAuth Apps*.
 - Provide the following environment variables for Docker Compose:
   - `OAUTH2_PROXY_CLIENT_ID`
   - `OAUTH2_PROXY_CLIENT_SECRET`
@@ -38,6 +38,7 @@ docker compose up
 ```
 
 It will start a sample `web-app`, `oauth2-proxy` and `nginx` services.
+Then go to <http://localhost/> and you’ll be redirected to GitHub.
 
 If you have an `.env` file, you can use `docker-compose --env-file .env up` command.
 
